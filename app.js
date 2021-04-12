@@ -1,5 +1,4 @@
 const express = require('express');
-
 const hbs = require('hbs');
 const path = require('path');
 const PunkAPIWrapper = require('punkapi-javascript-wrapper');
@@ -48,4 +47,3 @@ app.get('/beers/beer-:id', (req, res) => {
 });
 
 app.listen(3000, () => console.log('🏃‍ on port 3000'));
-
