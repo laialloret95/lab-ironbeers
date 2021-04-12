@@ -42,7 +42,7 @@ app.get('/beers/beer-:id', (req, res) => {
   punkAPI
   .getBeer(id)
   .then(beer => {
-    res.render('beers',beer)
+    res.render('random-beer',beer[0])
   })
   .catch(error => console.log(error));
 });

@@ -1,7 +1,10 @@
-<main>
+<main class="beer-container">
     {{#each this}}
-    <a href="/beers/beer-{{id}}">
-        {{> beerpartial this}}
-    </a>
+    <div class="beer">
+        <a href="/beers/beer-{{id}}">
+            {{> beerpartial this}}
+        </a>
+    </div>
+    </div>
     {{/each}}
 </main>

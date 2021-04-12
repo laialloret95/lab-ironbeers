@@ -9,7 +9,7 @@ font-family: Arial, Helvetica, sans-serif;
 /* General */
 body {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     background: #f7f9f9;
 }
 
@@ -19,6 +19,13 @@ img {
 
 .tagline {
     color: #bfbfbf
+}
+
+
+.general-content-container {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
 }
 
 /* Navbar*/
@@ -87,22 +94,39 @@ button {
 button:hover {
     background-color: #0a2c42
 }
+/* Beer */
+.beer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
 
+.beer {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+    text-align: center;
+    margin: 2px
+}
+
+.beer:hover {
+    background-color: #bfbfbf;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
 /* Random Beer */
 .random-container {
     display: flex;
-}
-
-.general-content-container {
-    display: flex;
-    flex-direction: column;
-    margin-left: 60px;
-    margin-right: 60px;
+    margin: 20px;
 }
 
 .image-container {
-    margin-top: 20px;
-    margin-left: 60px;
+    margin: 0 40px;
 }
 
 span {
