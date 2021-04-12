@@ -5,3 +5,80 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background: #f7f9f9;
+}
+
+img {
+    max-height: 200px;
+}
+
+/* Navbar*/
+nav {
+    background-color: #2081c3;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 30px;
+    overflow: hidden;
+    display:flex;
+    justify-content: flex-start;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #0a2c42;
+  }
+
+/* Home */
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.image-container {
+    margin-top: 40px;
+}
+
+img.home-beer {
+    max-height: 400px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.button-container>div {
+   margin-top: 18px; 
+}
+
+button {
+    background-color: #2081c3;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius:0.3em;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0a2c42
+}
